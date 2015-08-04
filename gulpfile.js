@@ -33,14 +33,14 @@ var path = {
         js: 'src/js/main.js',
         style: 'src/style/main.scss',
         img: 'src/img/**/*.*',
-        fonts: 'src/fonts/!**!/!*.*'
+        fonts: 'src/fonts/**/*.*'
     },
     watch: {
         html: 'src/**/*.html',
-        js: 'src/js/!**!/!*.js',
-        style: 'src/style/!**!/!*.scss',
-        img: 'src/img/!**!/!*.*',
-        fonts: 'src/fonts/!**/!*.*'
+        js: 'src/js/**/*.js',
+        style: 'src/style/**/*.scss',
+        img: 'src/img/**/*.*',
+        fonts: 'src/fonts/**/*.*'
     },
     clean: {
         html: 'build/',
@@ -48,7 +48,6 @@ var path = {
         css: 'build/css/',
         img: 'build/img/',
         fonts: 'build/fonts/'
-        /*clean: './build'*/
     }
 };
 
