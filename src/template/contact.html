@@ -1,0 +1,46 @@
+
+<!--Start contact section-->
+<section class="contact-section">
+    <div class="contact-section__inner">
+        <div class="contact-section__header">
+            <h3>
+                {{contact.header.title}}
+            </h3>
+            <p>
+                {{contact.header.descr}}
+            </p>
+        </div>
+        <form action="main.php" class="contact-section__form">
+            <div class="contact-section__form-short">
+                <input type="text" name="name" placeholder="{{contact.form.name}}" class="contact-section__form-name">
+            </div>
+            <div class="contact-section__form-short">
+                <input type="mail" name="email" placeholder="{{contact.form.mail}}" class="contact-section__form-email">
+            </div>
+            <div class="contact-section__form-long">
+                <input type="text" name="subject" placeholder="{{contact.form.subject}}" class="contact-section__form-sub">
+            </div>
+            <div class="contact-section__form-long">
+                <textarea name="message" id="Message" cols="30" rows="10" placeholder="{{contact.form.textarea}}" class="contact-section__form-textarea"></textarea>
+            </div>
+            <div class="contact-section__form-long">
+                <button class="contact-section__form-button">
+                    <span>
+                        {{contact.form.btn}}
+                    </span>
+                </button>
+            </div>
+        </form>
+        <div class="contact-section__info-block">
+            {{#each contact.info}}
+            <div class="contact-section__block-item">
+                <span>
+                    {{text}}
+                </span>
+            </div>
+            {{/each}}
+        </div>
+
+    </div>
+</section>
+<!--End contact section-->

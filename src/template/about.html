@@ -1,0 +1,63 @@
+
+<!--Start about section-->
+<section class="about-section">
+    <div class="about-section__inner">
+        <div class="about-section__header">
+            <div class="about-section__main-text">
+                <h3>
+                    {{about.header.title}}
+                </h3>
+                <p>
+                    {{about.header.descr}}
+                </p>
+                <div class="about-section__btn">
+                    {{about.header.btn}}
+                </div>
+            </div>
+        </div>
+        <div class="about-section__team">
+            <div class="about-section__team-header">
+                    <h3>
+                        {{about.team.title}}
+                    </h3>
+                    <p>
+                        {{about.team.descr}}
+                    </p>
+            </div>
+            <div class="about-section__members">
+                {{#each about.members}}
+                <div class="about-section__members-item">
+                    <div class="about-section__members-photo">
+                        <img src="{{url}}" alt="{{alt-text}}">
+                    </div>
+                    <div class="about-section__members-descr">
+                        <p>
+                            {{descr}}
+                        </p>
+                        <div class="about-section__members-social">
+                            <div>
+                                <img src="{{social-fb}}" alt="{{alt-text-fb}}">
+                            </div>
+                            <div>
+                                <img src="{{social-tw}}" alt="{{alt-text-tw}}">
+                            </div>
+                            <div>
+                                <img src="{{social-inst}}" alt="{{alt-text-inst}}">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-section__members-info">
+                        <h3>
+                            {{name}}
+                        </h3>
+                        <span>
+                            {{position}}
+                        </span>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+        </div>
+    </div>
+</section>
+<!--End about section-->

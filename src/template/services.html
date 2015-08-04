@@ -1,0 +1,51 @@
+
+<!--Start service section-->
+<section class="services-page">
+    <div class="services-page__inner">
+        <header class="services-page__header">
+            <h1>
+                {{services.services-page__header.header}}
+            </h1>
+            <div class="service-page__main-text">
+                {{services.services-page__header.text}}
+            </div>
+        </header>
+        <div class="services-page__row">
+            <div class="services-page__col-left">
+                {{#each services.services-page__col-left}}
+                <div class="service-page__item">
+                    <h3>
+                        {{header}}
+                    </h3>
+                    <p class="service-page__text">
+                        {{text}}
+                    </p>
+                </div>
+                {{/each}}
+            </div>
+            <div class="services-page__col-center">
+                <div class="service-page__main-img">
+                    <img src="{{services.services-page__col-img.img}}" alt="{{services.services-page__col-img.alt-text}}">
+                </div>
+            </div>
+            <div class="services-page__col-right">
+                {{#each services.services-page__col-right}}
+                <div class="service-page__item">
+                    <h3>
+                        {{header}}
+                    </h3>
+                    <p class="service-page__text">
+                        {{text}}
+                    </p>
+                </div>
+                {{/each}}
+            </div>
+        </div>
+        <div class="services-page__video">
+            <div class="services-page__player">
+
+            </div>
+        </div>
+    </div>
+</section>
+<!--End service section-->

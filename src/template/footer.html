@@ -1,0 +1,24 @@
+﻿
+<!--Start footer section-->
+<section class="footer-section">
+    <div class="footer-section__inner">
+        <p class="footer-section__copyright">
+            {{footer-page.copyright}}
+        </p>
+        <ul class="footer-section__social">
+            {{#each footer-page.social}}
+            <li>
+                <a href="{{url}}">
+                    <img src="{{img-url}}" alt="{{alt-text}}">
+                </a>
+            </li>
+            {{/each}}
+        </ul>
+        <div class="footer-section__btn-to-home">
+            <a href="{{footer-page.url}}">
+                <img src="{{footer-page.img-url}}" alt="{{footer-page.alt-text}}"/>
+            </a>
+        </div>
+    </div>
+</section>
+<!--End footer section-->

@@ -1,0 +1,47 @@
+
+<!--Start portfolio section-->
+<section class="portfolio">
+    <div class="portfolio__inner">
+        <h3 class="portfolio__header">
+            {{portfolio.header.title}}
+        </h3>
+        <p class="portfolio__text">
+            {{portfolio.header.text}}
+        </p>
+        <section class="portfolio__nav">
+            <ul class="portfolio__nav-list">
+                {{#each portfolio.nav}}
+                <li class="portfolio__nav-item">
+                    <a href="{{url}}">
+                        {{title}}
+                    </a>
+                </li>
+                {{/each}}
+            </ul>
+        </section>
+        <div class="portfolio__img" >
+            {{#each portfolio.img}}
+            <figure class="portfolio__img-item">
+                <img src="{{url}}" alt="{{alt-text}}">
+                <figcaption class="portfolio__item-text">
+                    <h3>
+                        {{title}}
+                    </h3>
+                    <span>
+                        {{section}}
+                    </span>
+                </figcaption>
+            </figure>
+            {{/each}}
+        </div>
+        <div class="portfolio__more">
+            <h3>
+                {{portfolio.more.title}}
+            </h3>
+            <div class="portfolio__more-btn">
+                {{portfolio.more.btn}}
+            </div>
+        </div>
+    </div>
+</section>
+<!--End portfolio section-->

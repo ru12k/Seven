@@ -1,0 +1,23 @@
+
+<!--Start header section-->
+<section class="page-header">
+    <div class="page-header__inner">
+        <figure class="main-logo">
+            <div>
+                <a href=”{{header.main-logo.link-url}}”>
+                    <img src="{{header.main-logo.img-url}}" alt="{{header.main-logo.alt-logo}}">
+                </a>
+            </div>
+        </figure>
+        <nav class=”main-menu”>
+            <ul>
+                {{#each header.main-menu__list-item}}
+                <li class=”main-menu__list-item>
+                    <a href=”{{url}}”>{{title}}</a>
+                </li>
+                {{/each}}
+            </ul>
+        </nav>
+    </div>
+</section>
+<!--End header section-->

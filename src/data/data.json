@@ -1,0 +1,314 @@
+{
+    "header": {
+        "main-logo": {
+            "img-url": "./img/main-logo.png",
+            "link-url": "#",
+            "alt-logo": "some content"
+        },
+        "main-menu__list-item": [
+            {
+                "url": "#home",
+                "title": "home"
+            },
+            {
+                "url": "#services",
+                "title": "services"
+            },
+            {
+                "url": "#portfolio",
+                "title": "portfolio"
+            },
+            {
+                "url": "#about",
+                "title": "about"
+            },
+            {
+                "url": "#news",
+                "title": "news"
+            },
+            {
+                "url": "#contact",
+                "title": "contact"
+            }
+
+        ]
+    },
+    "home": {
+        "img": {
+            "src": "./img/Slider.jpg",
+            "alt": "some alt text"
+        },
+        "big-descr" : "WECLOME TO THE SEVEN THEME",
+        "small-descr": "AWESOME THEME",
+        "btn" : "download"
+    },
+    "services": {
+        "services-page__header": {
+            "header": "DESIGN IS OUR FUEL",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat."
+        },
+        "services-page__col-left": [
+            {
+                "header": "design",
+                "text" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod empor incididunt ut labore et dolore magna aliqua.",
+                "ico": "./img/svg/ico-design.svg"
+            },
+            {
+                "header": "coding",
+                "text" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod empor incididunt ut labore et dolore magna aliqua.",
+                "ico": "./img/svg/ico-coding.svg"
+            }
+            ],
+        "services-page__col-right": [
+            {
+                "header": "Photography",
+                "text" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod empor incididunt ut labore et dolore magna aliqua.",
+                "ico": ".src/img/svg/ico-photography.svg"
+            },
+            {
+                "header": "app",
+                "text" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod empor incididunt ut labore et dolore magna aliqua.",
+                "ico": ".src/img/svg/ico-app.svg"
+            }
+        ],
+        "services-page__col-img": {
+            "img": ".src/img/svg/img-Phone.svg",
+            "alt-text": "some alt text"
+        }
+
+    },
+    "portfolio": {
+        "header": {
+            "title": "WHAT WE DONE SO FAR",
+            "text": "Soluta consequat no has. Has ex deleniti consulatu, tamquam interpretaris sit exno has. Has ex deonsul vivendum ullamcorper et his."
+        },
+        "nav": [
+            {
+                "url": "#",
+                "title": "All"
+            },
+            {
+                "url": "#",
+                "title": "Mockups"
+            },
+            {
+                "url": "#",
+                "title": "Icons"
+            },
+            {
+                "url": "#",
+                "title": "UI Kits"
+            },
+            {
+                "url": "#",
+                "title": "Templates"
+            }
+        ],
+        "img": [
+            {
+                "url": ".src/img/portfolio/adena.png",
+                "title": "ADENA ICONS PACK",
+                "alt-text": "ADENA ICONS PACK",
+                "section": "Icons"
+            },
+            {
+                "url": ".src/img/portfolio/atom.png",
+                "title": "ATOM UI KIT",
+                "alt-text": "ATOM UI KIT",
+                "section": "UI Kits"
+            },
+            {
+                "url": ".src/img/portfolio/flat.png",
+                "title": "60 FLAT ICONS",
+                "alt-text": "60 FLAT ICONS",
+                "section": "Icons"
+            },
+            {
+                "url": ".src/img/portfolio/ipad.png",
+                "title": "IPAD MOCKUP",
+                "alt-text": "IPAD MOCKUP",
+                "section": "Mockup"
+            },
+            {
+                "url": ".src/img/portfolio/ket.png",
+                "title": "KET WEB TEMPLATE",
+                "alt-text": "KET WEB TEMPLATE",
+                "section": "Template"
+            },
+            {
+                "url": ".src/img/portfolio/mentum.png",
+                "title": "MENTUM WEB THEME",
+                "alt-text": "MENTUM WEB THEME",
+                "section": "Template"
+            },
+            {
+                "url": ".src/img/portfolio/modern-phone.png",
+                "title": "SMARTPHONE MOCKUP",
+                "alt-text": "SMARTPHONE MOCKUP",
+                "section": "Mockup"
+            },
+            {
+                "url": ".src/img/portfolio/sven.png",
+                "title": "SVEN UI KIT",
+                "alt-text": "SVEN UI KIT",
+                "section": "UI Kits"
+            }
+
+        ],
+        "more": {
+            "title": "want to see more?",
+            "btn": "#"
+        }
+    },
+    "about": {
+        "header": {
+            "title": "SOME WORDS ABOUT US",
+            "descr": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "btn": "read more"
+        },
+        "team": {
+            "title": "MEET OUR TEAM",
+            "descr": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        "members": [
+            {
+                "url": ".src/img/team/team-1.jpg",
+                "alt-text": "team-1",
+                "descr": "Lorem ipsum dolor sit amet, consectetur adipisicing.",
+                "social-fb": ".src/img/svg/fb.svg",
+                "alt-text-fb": "fb",
+                "social-tw": ".src/img/svg/tw.svg",
+                "alt-text-tw": "tw",
+                "social-inst": ".src/img/svg/gp.svg",
+                "alt-text-inst": "gp",
+                "name": "John Doe",
+                "position": "Graphic designer"
+            },
+            {
+                "url": ".src/img/team/team-2.jpg",
+                "alt-text": "team-2",
+                "descr": "Lorem ipsum dolor sit amet, consectetur adipisicing.",
+                "social-fb": ".src/img/svg/fb.svg",
+                "alt-text-fb": "fb",
+                "social-tw": ".src/img/svg/tw.svg",
+                "alt-text-tw": "tw",
+                "social-inst": ".src/img/svg/gp.svg",
+                "alt-text-inst": "gp",
+                "name": "John Doe",
+                "position": "Graphic designer"
+            },
+            {
+                "url": ".src/img/team/team-3.jpg",
+                "alt-text": "team-3",
+                "descr": "Lorem ipsum dolor sit amet, consectetur adipisicing.",
+                "social-fb": ".src/img/svg/fb.svg",
+                "alt-text-fb": "fb",
+                "social-tw": ".src/img/svg/tw.svg",
+                "alt-text-tw": "tw",
+                "social-inst": ".src/img/svg/gp.svg",
+                "alt-text-inst": "gp",
+                "name": "John Doe",
+                "position": "Graphic designer"
+            }
+        ]
+
+    },
+    "news": {
+        "header": {
+            "img-url": "./src/img/blog-section.jpg",
+            "title": "OUR BLOG STORIES",
+            "descr": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut."
+        },
+        "items": [
+            {
+                "img-url": "./src/img/blog-1.png",
+                "alt-text":"some alt text",
+                "title": "AWESOME BLOG TITLE 1",
+                "descr": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+                "btn-img-url": "btn"
+            },
+            {
+                "img-url": "./src/img/blog-2.png",
+                "alt-text":"some alt text",
+                "title": "AWESOME BLOG TITLE 2",
+                "descr": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+                "btn-img-url": "btn"
+            },
+            {
+                "img-url": "./src/img/blog-3.png",
+                "alt-text":"some alt text",
+                "title": "AWESOME BLOG TITLE 3",
+                "descr": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+                "btn-img-url": "btn"
+            }
+        ],
+        "footer": {
+            "btn-img-url": "btn",
+            "alt-text":"some alt text"
+        }
+    },
+    "contact": {
+        "header": {
+            "title": "KEEP IN TOUCH",
+            "descr": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut."
+        },
+        "form": {
+            "name": "Name",
+            "mail": "Email",
+            "subject": "Subject",
+            "textarea": "Message",
+            "btn": "Send"
+        },
+        "info": [
+            {
+                "text": "847-939-9359",
+                "ico-url": "#"
+            },
+            {
+                "text": "sevenmail@sevenmail.com",
+                "ico-url": "#"
+            },
+            {
+                "text": "4116 Oak Avenue Chickago, IL 60607",
+                "ico-url": "#"
+            }
+        ]
+    },
+    "footer-page": {
+        "copyright": "© 2015 All rights reserved - Theme by GraphBerry",
+        "img-url": "#",
+        "alt-text": "some alt text",
+        "social": [
+            {
+                "url": "#",
+                "img-url": "#",
+                "alt-text": "some alt text"
+            },
+            {
+                "url": "#",
+                "img-url": "#",
+                "alt-text": "some alt text"
+            },
+            {
+                "url": "#",
+                "img-url": "#",
+                "alt-text": "some alt text"
+            },
+            {
+                "url": "#",
+                "img-url": "#",
+                "alt-text": "some alt text"
+            },
+            {
+                "url": "#",
+                "img-url": "#",
+                "alt-text": "some alt text"
+            },
+            {
+                "url": "#",
+                "img-url": "#",
+                "alt-text": "some alt text"
+            }
+        ]
+    }
+}

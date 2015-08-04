@@ -1,0 +1,46 @@
+
+<!--Start news section-->
+<section class="news-section">
+    <div class="news-section__inner">
+        <div class="news-section__header">
+            <h3>
+                {{news.header.title}}
+            </h3>
+            <p>
+                {{news.header.descr}}
+            </p>
+        </div>
+        <div class="news-section__blog-items">
+            {{#each news.items}}
+            <div class="news-section__blog-item">
+                <div class="news-section__items-img">
+                    <img src="{{img-url}}" alt="{{alt-text}}"/>
+                </div>
+                <div class="news-section__items-title">
+                    <h3>
+                        {{title}}
+                    </h3>
+                </div>
+                <div class="news-section__items-text">
+                    <p>
+                        {{descr}}
+                    </p>
+                </div>
+                <div class="news-section__items-btn">
+                    <span>
+                        {{btn-img-url}}
+                    </span>
+                </div>
+            </div>
+            {{/each}}
+        </div>
+        <div class="news-section__footer">
+            <div class="news-section__footer-btn">
+                <a href="">
+                    <img src="{{news.footer.btn-img-url}}" alt="{{news.footer.alt-text}}"/>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End news section-->
