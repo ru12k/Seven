@@ -63,16 +63,16 @@
             {
                 "header": "Photography",
                 "text" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod empor incididunt ut labore et dolore magna aliqua.",
-                "ico": ".src/img/svg/ico-photography.svg"
+                "ico": "./img/svg/ico-photography.svg"
             },
             {
                 "header": "app",
                 "text" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod empor incididunt ut labore et dolore magna aliqua.",
-                "ico": ".src/img/svg/ico-app.svg"
+                "ico": "./img/svg/ico-app.svg"
             }
         ],
         "services-page__col-img": {
-            "img": ".src/img/svg/img-Phone.svg",
+            "img": "./img/svg/img-Phone.svg",
             "alt-text": "some alt text"
         }
 
@@ -106,49 +106,49 @@
         ],
         "img": [
             {
-                "url": ".src/img/portfolio/adena.png",
+                "url": "./img/portfolio/adena.png",
                 "title": "ADENA ICONS PACK",
                 "alt-text": "ADENA ICONS PACK",
                 "section": "Icons"
             },
             {
-                "url": ".src/img/portfolio/atom.png",
+                "url": "./img/portfolio/atom.png",
                 "title": "ATOM UI KIT",
                 "alt-text": "ATOM UI KIT",
                 "section": "UI Kits"
             },
             {
-                "url": ".src/img/portfolio/flat.png",
+                "url": "./img/portfolio/flat.png",
                 "title": "60 FLAT ICONS",
                 "alt-text": "60 FLAT ICONS",
                 "section": "Icons"
             },
             {
-                "url": ".src/img/portfolio/ipad.png",
+                "url": "./img/portfolio/ipad.png",
                 "title": "IPAD MOCKUP",
                 "alt-text": "IPAD MOCKUP",
                 "section": "Mockup"
             },
             {
-                "url": ".src/img/portfolio/ket.png",
+                "url": "./img/portfolio/ket.png",
                 "title": "KET WEB TEMPLATE",
                 "alt-text": "KET WEB TEMPLATE",
                 "section": "Template"
             },
             {
-                "url": ".src/img/portfolio/mentum.png",
+                "url": "./img/portfolio/mentum.png",
                 "title": "MENTUM WEB THEME",
                 "alt-text": "MENTUM WEB THEME",
                 "section": "Template"
             },
             {
-                "url": ".src/img/portfolio/modern-phone.png",
+                "url": "./img/portfolio/modern-phone.png",
                 "title": "SMARTPHONE MOCKUP",
                 "alt-text": "SMARTPHONE MOCKUP",
                 "section": "Mockup"
             },
             {
-                "url": ".src/img/portfolio/sven.png",
+                "url": "./img/portfolio/sven.png",
                 "title": "SVEN UI KIT",
                 "alt-text": "SVEN UI KIT",
                 "section": "UI Kits"
@@ -172,40 +172,40 @@
         },
         "members": [
             {
-                "url": ".src/img/team/team-1.jpg",
+                "url": "./img/team/team-1.jpg",
                 "alt-text": "team-1",
                 "descr": "Lorem ipsum dolor sit amet, consectetur adipisicing.",
-                "social-fb": ".src/img/svg/fb.svg",
+                "social-fb": "./img/svg/fb.svg",
                 "alt-text-fb": "fb",
-                "social-tw": ".src/img/svg/tw.svg",
+                "social-tw": "./img/svg/tw.svg",
                 "alt-text-tw": "tw",
-                "social-inst": ".src/img/svg/gp.svg",
+                "social-inst": "./img/svg/gp.svg",
                 "alt-text-inst": "gp",
                 "name": "John Doe",
                 "position": "Graphic designer"
             },
             {
-                "url": ".src/img/team/team-2.jpg",
+                "url": "./img/team/team-2.jpg",
                 "alt-text": "team-2",
                 "descr": "Lorem ipsum dolor sit amet, consectetur adipisicing.",
-                "social-fb": ".src/img/svg/fb.svg",
+                "social-fb": "./img/svg/fb.svg",
                 "alt-text-fb": "fb",
-                "social-tw": ".src/img/svg/tw.svg",
+                "social-tw": "./img/svg/tw.svg",
                 "alt-text-tw": "tw",
-                "social-inst": ".src/img/svg/gp.svg",
+                "social-inst": "./img/svg/gp.svg",
                 "alt-text-inst": "gp",
                 "name": "John Doe",
                 "position": "Graphic designer"
             },
             {
-                "url": ".src/img/team/team-3.jpg",
+                "url": "./img/team/team-3.jpg",
                 "alt-text": "team-3",
                 "descr": "Lorem ipsum dolor sit amet, consectetur adipisicing.",
-                "social-fb": ".src/img/svg/fb.svg",
+                "social-fb": "./img/svg/fb.svg",
                 "alt-text-fb": "fb",
-                "social-tw": ".src/img/svg/tw.svg",
+                "social-tw": "./img/svg/tw.svg",
                 "alt-text-tw": "tw",
-                "social-inst": ".src/img/svg/gp.svg",
+                "social-inst": "./img/svg/gp.svg",
                 "alt-text-inst": "gp",
                 "name": "John Doe",
                 "position": "Graphic designer"
@@ -215,27 +215,27 @@
     },
     "news": {
         "header": {
-            "img-url": "./src/img/blog-section.jpg",
+            "img-url": "./img/blog-section.jpg",
             "title": "OUR BLOG STORIES",
             "descr": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut."
         },
         "items": [
             {
-                "img-url": "./src/img/blog-1.png",
+                "img-url": "./img/blog-1.png",
                 "alt-text":"some alt text",
                 "title": "AWESOME BLOG TITLE 1",
                 "descr": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
                 "btn-img-url": "btn"
             },
             {
-                "img-url": "./src/img/blog-2.png",
+                "img-url": "./img/blog-2.png",
                 "alt-text":"some alt text",
                 "title": "AWESOME BLOG TITLE 2",
                 "descr": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
                 "btn-img-url": "btn"
             },
             {
-                "img-url": "./src/img/blog-3.png",
+                "img-url": "./img/blog-3.png",
                 "alt-text":"some alt text",
                 "title": "AWESOME BLOG TITLE 3",
                 "descr": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
