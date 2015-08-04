@@ -1,7 +1,7 @@
 var gulp = require('gulp'),
     handlebars = require('gulp-compile-handlebars'),
     rename = require('gulp-rename'),
-    gutil = require('gulp-util'),
+    /*gutil = require('gulp-util'),*/
     speaker = require('./src/data/data.json'),
     browserSync = require("browser-sync"),
     /*watch = require('gulp-watch'),*/
@@ -49,7 +49,7 @@ var configServer = {
     server: {
         baseDir: "./build"
     },
-    tunnel: false,
+    tunnel: true,
     host: 'localhost',
     port: 9000,
     logPrefix: "seven-prefix"
@@ -65,10 +65,10 @@ gulp.task('clean', function (cb) {
 
 gulp.task('watch', function(){
     gulp.watch(path.watch.html, ['html:build']);
-    /*gulp.watch(path.watch.style, ['html:build']);
-    gulp.watch(path.watch.js, ['html:build']);
-    gulp.watch(path.watch.img, ['html:build']);
-    gulp.watch(path.watch.font, ['html:build']);*/
+    gulp.watch(path.watch.style, ['style:build']);
+    gulp.watch(path.watch.js, ['js:build']);
+    gulp.watch(path.watch.img, ['img:build']);
+    gulp.watch(path.watch.font, ['fonts:build']);
 });
 
 gulp.task('html:build', function() {
@@ -85,7 +85,50 @@ gulp.task('html:build', function() {
 
 });
 
-gulp.task('build', ['clean', 'html:build']);
+gulp.task('js:build', function () {
+    gulp.src(path.src.js)
+        .pipe(sourcemaps.init())
+        .pipe(uglify())
+        .pipe(sourcemaps.write())
+        .pipe(gulp.dest(path.build.js))
+        .pipe(reload({stream: true}));
+});
+
+gulp.task('style:build', function () {
+    gulp.src(path.src.style)
+        .pipe(sourcemaps.init())
+        .pipe(sass({
+            includePaths: ['src/style/'],
+            outputStyle: 'compressed',
+            sourceMap: true,
+            errLogToConsole: true
+        }))
+        .pipe(prefixer())
+        .pipe(cssmin())
+        .pipe(sourcemaps.write())
+        .pipe(gulp.dest(path.build.css))
+        .pipe(reload({stream: true}));
+});
+
+gulp.task('img:build', function () {
+    gulp.src(path.src.img)
+        .pipe(imagemin({
+            progressive: true,
+            svgoPlugins: [{removeViewBox: false}],
+            use: [pngquant()],
+            interlaced: true
+        }))
+        .pipe(gulp.dest(path.build.img))
+        .pipe(reload({stream: true}));
+});
+
+gulp.task('fonts:build', function() {
+    gulp.src(path.src.fonts)
+        .pipe(gulp.dest(path.build.fonts))
+});
+
+
+gulp.task('build', ['clean', 'html:build', 'js:build', 'style:build', 'img:build', 'fonts:build']);
 
 gulp.task('default',['build', 'webserver', 'watch']);
 
